@@ -1,0 +1,44 @@
+/* Основной стиль страницы */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+/* Загаловок */
+h1 {
+    font-size: 2.5rem;
+    color: darkorange;
+    margin-bottom: 40px;
+    text-shadow: 0 0 5px #000;
+}
+/*  Контейнер для всех карточек */
+.music-card {
+    background-color: #1a1a1a;
+   border-radius: 10px;
+   overflow: hidden;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+   transition: transform 0.3s ease;
+}
+/* Эффекты при наведеннии на картинку */
+.music-card:hover {
+    transform: scale(1.05);
+}
+.music-links a{
+    background-color: #1f1f1f;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #66ccff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
